@@ -12,7 +12,7 @@ You can choose between:
 ### SPEED
     current rate (i.e. 60 mph; assumed to be 60 mi/1 hr)
     average rate (i.e. 120 mi / 2 hr simplified to 60mph)
-    Because speed is ultimately just dividing a unit of
+    _Because speed is ultimately just dividing a unit of
     distance over a unit of time, it should be programmed
     as such, and essentially reuse the code from those with
-    the extra step of dividing them.
+    the extra step of dividing them._
