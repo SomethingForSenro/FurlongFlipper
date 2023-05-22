@@ -1,4 +1,5 @@
 # FurlongFlipper
+Please only input positive numbers for now.
 You can choose between:
 1. LENGTH _wherein Universal Unit (below) is the mode of choice for conversion._
   - `UNIVERSAL UNIT`, equivalent to 25146km or 15625mi
