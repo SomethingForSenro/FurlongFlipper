@@ -14,19 +14,20 @@ You can choose between:
     - `mi`, mile
     - `nmi`, nautical mile
 2. TIME _wherein hour is the mode of choice for conversion._
-    - `ms`, millisecond
-    - `sec`, second
-    - `min`, minute
-    - `hr`, hour
-    - `day`
-    - `wk`, week
-    - `fortnight` (or 2 weeks)
-    - `mon`, month
-    - `yr`, year
-    - `dec`, decade
-    - `cent`, century
-    - `mil`, millenium
-3. SPEED _wherein there are two different methods to input speed._
-   - `CURRENT` (i.e. input '60' mph; assumed to be 60 mi/1 hr)
-   - `AVERAGE` (i.e. input '120' mi / '2' hr, then simplify to 60mph)
-_Because speed is ultimately just dividing a unit of distance over a unit of time, it should be programmed as such, and essentially reuse the code from those with the extra step of dividing them._
+  - `ms`, millisecond
+  - `sec`, second
+  - `min`, minute
+  - `hr`, hour
+  - `day`
+  - `wk`, week
+  - `fortnight` (or 2 weeks)
+  - `mon`, month
+  - `yr`, year
+  - `dec`, decade
+  - `cent`, century
+  - `mil`, millenium
+3. SPEED
+  _for a static number, like 60 miles per hour:_
+  - Choose the relevant units (mile, hour)
+  - Input the speed number (the '60') as the distance
+  - Input 1 as the time
