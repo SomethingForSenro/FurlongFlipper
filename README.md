@@ -1,8 +1,7 @@
 # FurlongFlipper
 Please only input positive numbers for now.
 You can choose between:
-1. LENGTH _wherein Universal Unit (below) is the mode of choice for conversion._
-  - `UNIVERSAL UNIT`, equivalent to 25146km or 15625mi
+1. LENGTH
   - `METRIC`
     - `centimeter`
     - `meter`
@@ -13,7 +12,7 @@ You can choose between:
     - `furlong`, 1/8 mi
     - `mile`
     - `nautical mile`
-2. TIME _wherein hour is the mode of choice for conversion._
+2. TIME
   - `millisecond`
   - `second`
   - `minute`
