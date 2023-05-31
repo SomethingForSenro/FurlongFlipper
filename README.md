@@ -9,6 +9,7 @@ You can choose between:
   - `IMPERIAL`
     - `inch`
     - `foot`
+    - `yard`
     - `furlong`, 1/8 mi
     - `mile`
 2. TIME
