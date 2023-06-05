@@ -8,9 +8,8 @@ class Main {
   public static void main(String[] args) {
     System.out.println("Hello, world!");
 
-    System.out.println("What type of unit are you converting? \n    ~ LENGTH
-                       /*\n    ~ TIME\n    ~ SPEED" (no longer supported)*/
-                      );
+    System.out.println("What type of unit are you converting? \n    ~ LENGTH");
+                       //\n    ~ TIME\n    ~ SPEED"); (no longer supported)
     String unit = watcher.nextLine().toUpperCase();
     //get unit type
 
