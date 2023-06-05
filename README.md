@@ -1,6 +1,6 @@
 # FurlongFlipper
 You can choose between:
-1. LENGTH
+UNITS OF LENGTH
   - `METRIC`
     - `centimeter`
     - `meter`
