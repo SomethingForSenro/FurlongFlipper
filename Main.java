@@ -8,17 +8,18 @@ class Main {
   public static void main(String[] args) {
     System.out.println("Hello, world!");
 
-    System.out.println("What type of unit are you converting? \n    ~ LENGTH\n    ~ TIME\n    ~ SPEED");
+    System.out.println("What type of unit are you converting? \n    ~ LENGTH
+                       /*\n    ~ TIME\n    ~ SPEED" (no longer supported)*/);
     String unit = watcher.nextLine().toUpperCase();
     //get unit type
 
     //break away
     if (unit.equals("LENGTH")) {
       Length.ask();
-    } else if (unit.equals("TIME")) {
+    /* } else if (unit.equals("TIME")) {
       Time.ask();
     } else if (unit.equals("SPEED")) {
-      Speed.ask();
+      Speed.ask(); */
     } else {
       System.out.println("You done goofed! Please restart the program.");
     } //end if
